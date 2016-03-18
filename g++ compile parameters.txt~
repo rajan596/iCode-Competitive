@@ -1,0 +1,7 @@
+#1
+
+g++ q.cpp -save-templares // generates 3
+
+) preprocessed code (having .i extention)
+2) assembly code (having .s extention) and
+3) object code (having .o option).
