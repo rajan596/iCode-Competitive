@@ -20,7 +20,6 @@ int main(){
     for(ll i=0;i<n;i++){
         cin>>a[i+1];
     }
-
     ll ans=0;
     while(m--){
         ll x,y;
