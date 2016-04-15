@@ -49,7 +49,7 @@ void update(ll idx,ll l=0,ll r=n-1,ll i=1){
     if(l>r)
         return;
     if(l==r && l==idx){
-        segTree[i]=makeNode(s[l]);
+        segTree[i]=makeNode(s[idx]);
         return;
     }
     ll mid=(l+r)>>1;
@@ -66,7 +66,7 @@ int main(){
     for(ll test=1;test<11;test++) {
         cout<<"Test :"<<test<<"\n";
         cin>>n>>s>>q;
-        for(ll i=0;i<4*MAX;i++) segTree[i]=makeNode('-');
+        for(ll i=0;i<3*MAX;i++) segTree[i]=makeNode('-');
         build();
         while(q--) {
             ll x;
