@@ -21,7 +21,6 @@ ll f(ll mid) {
             break;
         }
     }
-    //cout<<mid<<" ## " << t <<endl;
     return t;
 }
 
